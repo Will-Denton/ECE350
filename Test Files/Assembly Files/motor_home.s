@@ -29,40 +29,39 @@ nop
 nop
 spin $1, $11, 0
 nop             
-nop
+wait 30
 nop
 spin $2, $12, 0
 nop
-nop
+wait 30
 nop
 spin $3, $13, 0
 nop
-nop
+wait 30
 nop
 spin $4, $14, 0
 nop
-nop
+wait 30
 nop
 spin $5, $15, 0
 nop
-nop
+wait 30
 nop
 spin $6, $16, 0
 nop
-nop
+wait 30
 nop
 spin $7, $17, 0
 nop
-nop
+wait 30
 nop
 spin $8, $18, 0
 nop 
+wait 30
+nop
+wait 1000
 nop
 nop
 nop
-j1:
+j home
 nop
-nop
-nop
-nop
-j j1
